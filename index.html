@@ -1,1 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Emma DA SILVA | Developer Portfolio</title>
+
+  <meta
+    name="description"
+    content="Emma DA SILVA is an aspiring software developer exploring web development, educational technology, and command-line problem-solving through real projects, documentation, and GitHub Pages deployment."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo" aria-label="Emma DA SILVA Home">
+        <span class="logo-mark">E</span>
+        <span class="logo-text">Emma DA SILVA</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link active" data-en="Home" data-fr="Accueil">Home</a>
+        <a href="about.html" class="nav-link" data-en="About" data-fr="À propos">About</a>
+        <a href="projects.html" class="nav-link" data-en="Projects" data-fr="Projets">Projects</a>
+        <a href="skills.html" class="nav-link" data-en="Skills" data-fr="Compétences">Skills</a>
+        <a href="journal.html" class="nav-link" data-en="Learning Journal" data-fr="Journal d’apprentissage">Learning Journal</a>
+        <a href="contact.html" class="nav-link" data-en="Contact" data-fr="Contact">Contact</a>
+
+        <button class="language-toggle" id="languageToggle" type="button">
+          FR
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section-padding">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow" data-en="Developer Portfolio" data-fr="Portfolio développeuse">
+            Developer Portfolio
+          </p>
+
+          <h1>
+            <span data-en="Emma DA SILVA" data-fr="Emma DA SILVA">Emma DA SILVA</span>
+            <span
+              class="gradient-text"
+              data-en="Aspiring Software Developer"
+              data-fr="Développeuse logiciel en devenir"
+            >
+              Aspiring Software Developer
+            </span>
+          </h1>
+
+          <p
+            class="hero-subtitle"
+            data-en="Exploring web development, educational technology, and command-line problem-solving."
+            data-fr="Intéressée par le développement web, la technologie éducative et la résolution de problèmes en ligne de commande."
+          >
+            Exploring web development, educational technology, and command-line problem-solving.
+          </p>
+
+          <p
+            class="hero-text"
+            data-en="I come from a literature background, but curiosity pulled me into technology. Today, I’m learning by building projects, solving terminal-based challenges, and documenting my progress one step at a time."
+            data-fr="Je viens d’un parcours littéraire, mais la curiosité m’a attirée vers la technologie. Aujourd’hui, j’apprends en construisant des projets, en résolvant des défis dans le terminal et en documentant mes progrès étape par étape."
+          >
+            I come from a literature background, but curiosity pulled me into technology.
+            Today, I’m learning by building projects, solving terminal-based challenges,
+            and documenting my progress one step at a time.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="projects.html"
+              class="btn btn-primary"
+              data-en="View My Projects"
+              data-fr="Voir mes projets"
+            >
+              View My Projects
+            </a>
+
+            <a
+              href="about.html"
+              class="btn btn-secondary"
+              data-en="Read My Story"
+              data-fr="Lire mon histoire"
+            >
+              Read My Story
+            </a>
+
+            <a
+              href="https://github.com/emma-dasilva-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-ghost"
+              data-en="GitHub"
+              data-fr="GitHub"
+            >
+              GitHub
+            </a>
+          </div>
+
+          <div class="terminal-line">
+            <span class="terminal-symbol">&gt;</span>
+            <span
+              data-en="currently building, learning, debugging, and improving"
+              data-fr="en train de construire, apprendre, déboguer et améliorer"
+            >
+              currently building, learning, debugging, and improving
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Developer summary card">
+          <div class="panel-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+
+          <div class="code-card">
+            <p class="code-line">
+              <span class="code-key">name</span>
+              <span class="code-equal">=</span>
+              <span class="code-value">"Emma DA SILVA"</span>
+            </p>
+
+            <p class="code-line">
+              <span class="code-key">focus</span>
+              <span class="code-equal">=</span>
+              <span class="code-value">"Web + EdTech + Terminal"</span>
+            </p>
+
+            <p class="code-line">
+              <span class="code-key">learning</span>
+              <span class="code-equal">=</span>
+              <span class="code-value">["HTML", "CSS", "JavaScript", "C", "Shell"]</span>
+            </p>
+
+            <p class="code-line">
+              <span class="code-key">mindset</span>
+              <span class="code-equal">=</span>
+              <span class="code-value">"Start before ready"</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Identity Cards -->
+    <section class="identity-section section-padding-sm">
+      <div class="container">
+        <div class="cards-grid three-columns">
+          <article class="info-card">
+            <div class="card-icon">01</div>
+            <h2 data-en="Builder" data-fr="Créatrice">Builder</h2>
+            <p
+              data-en="I turn ideas into small but real digital projects."
+              data-fr="Je transforme des idées en petits projets numériques concrets."
+            >
+              I turn ideas into small but real digital projects.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">02</div>
+            <h2 data-en="Learner" data-fr="Apprenante">Learner</h2>
+            <p
+              data-en="I practice through web projects, GitHub, and terminal challenges."
+              data-fr="Je pratique à travers des projets web, GitHub et des défis dans le terminal."
+            >
+              I practice through web projects, GitHub, and terminal challenges.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">03</div>
+            <h2 data-en="Problem-Solver" data-fr="Résolution de problèmes">Problem-Solver</h2>
+            <p
+              data-en="I enjoy finding solutions, debugging errors, and improving my work."
+              data-fr="J’aime trouver des solutions, corriger les erreurs et améliorer mon travail."
+            >
+              I enjoy finding solutions, debugging errors, and improving my work.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects-preview section-padding">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow" data-en="Selected Work" data-fr="Projets sélectionnés">
+            Selected Work
+          </p>
+
+          <h2 data-en="Featured Projects" data-fr="Projets en avant">
+            Featured Projects
+          </h2>
+
+          <p
+            data-en="A few projects that show how I am learning by building, documenting, and publishing my work."
+            data-fr="Quelques projets qui montrent comment j’apprends en construisant, documentant et publiant mon travail."
+          >
+            A few projects that show how I am learning by building, documenting, and publishing my work.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-type" data-en="Linux Learning Journal" data-fr="Journal d’apprentissage Linux">
+                Linux Learning Journal
+              </span>
+
+              <span class="status-badge status-progress" data-en="In progress" data-fr="En cours">
+                In progress
+              </span>
+            </div>
+
+            <h3 data-en="Bandit Redline Journal" data-fr="Bandit Redline Journal">
+              Bandit Redline Journal
+            </h3>
+
+            <p
+              data-en="A learning journal documenting my progress through OverTheWire: Bandit, focused on Linux, terminal commands, SSH, permissions, and problem-solving."
+              data-fr="Un journal d’apprentissage qui documente ma progression sur OverTheWire: Bandit, avec un focus sur Linux, les commandes du terminal, SSH, les permissions et la résolution de problèmes."
+            >
+              A learning journal documenting my progress through OverTheWire: Bandit,
+              focused on Linux, terminal commands, SSH, permissions, and problem-solving.
+            </p>
+
+            <div class="tag-list">
+              <span>Linux</span>
+              <span>SSH</span>
+              <span>Terminal</span>
+              <span>GitHub Pages</span>
+            </div>
+
+            <a
+              href="https://emma-dasilva-dev.github.io/bandit-redline-journal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              data-en="View Project"
+              data-fr="Voir le projet"
+            >
+              View Project
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-type" data-en="Educational Coding Game" data-fr="Jeu éducatif de code">
+                Educational Coding Game
+              </span>
+
+              <span class="status-badge status-live" data-en="Live demo" data-fr="Démo en ligne">
+                Live demo
+              </span>
+            </div>
+
+            <h3 data-en="ByteRush" data-fr="ByteRush">
+              ByteRush
+            </h3>
+
+            <p
+              data-en="An educational coding game designed to make programming concepts more interactive and engaging for beginners."
+              data-fr="Un jeu éducatif de code conçu pour rendre les concepts de programmation plus interactifs et engageants pour les débutants."
+            >
+              An educational coding game designed to make programming concepts more interactive and engaging for beginners.
+            </p>
+
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Game Logic</span>
+            </div>
+
+            <a
+              href="https://www.azatoys.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              data-en="View Live Demo"
+              data-fr="Voir la démo"
+            >
+              View Live Demo
+            </a>
+          </article>
+        </div>
+
+        <div class="center-action">
+          <a
+            href="projects.html"
+            class="btn btn-primary"
+            data-en="Explore All Projects"
+            data-fr="Explorer tous les projets"
+          >
+            Explore All Projects
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview section-padding">
+      <div class="container about-preview-grid">
+        <div>
+          <p class="eyebrow" data-en="My Story" data-fr="Mon histoire">
+            My Story
+          </p>
+
+          <h2
+            data-en="Start Before You Feel Ready"
+            data-fr="Commencer avant de se sentir prête"
+          >
+            Start Before You Feel Ready
+          </h2>
+        </div>
+
+        <div>
+          <p
+            class="large-text"
+            data-en="I did not enter technology because I felt ready. I started because I was curious enough to stop waiting. Coming from a literature background, code felt foreign at first, but every project, error, and small win has helped me build confidence through action."
+            data-fr="Je ne suis pas entrée dans la technologie parce que je me sentais prête. J’ai commencé parce que ma curiosité était assez forte pour arrêter d’attendre. En venant d’un parcours littéraire, le code me semblait étranger au début, mais chaque projet, chaque erreur et chaque petite victoire m’a aidée à construire ma confiance par l’action."
+          >
+            I did not enter technology because I felt ready. I started because I was curious enough
+            to stop waiting. Coming from a literature background, code felt foreign at first,
+            but every project, error, and small win has helped me build confidence through action.
+          </p>
+
+          <a
+            href="about.html"
+            class="text-link"
+            data-en="Read More About Me"
+            data-fr="En savoir plus sur moi"
+          >
+            Read More About Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="final-cta section-padding">
+      <div class="container">
+        <div class="cta-box">
+          <h2
+            data-en="I’m still learning, but I’m building in public and improving with every project."
+            data-fr="J’apprends encore, mais je construis publiquement et je m’améliore avec chaque projet."
+          >
+            I’m still learning, but I’m building in public and improving with every project.
+          </h2>
+
+          <a
+            href="projects.html"
+            class="btn btn-primary"
+            data-en="Explore My Work"
+            data-fr="Explorer mon travail"
+          >
+            Explore My Work
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="footer-logo">Emma DA SILVA</a>
+        <p
+          data-en="Aspiring Software Developer"
+          data-fr="Développeuse logiciel en devenir"
+        >
+          Aspiring Software Developer
+        </p>
+        <p class="footer-small">Learning. Building. Debugging. Improving.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/emma-dasilva-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/emmadasilvadev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:emma.dasilva.dev@gmail.com">Email</a>
+        <a href="https://www.instagram.com/reine.dsv/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p
+        data-en="Built and published with GitHub Pages."
+        data-fr="Construit et publié avec GitHub Pages."
+      >
+        Built and published with GitHub Pages.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
