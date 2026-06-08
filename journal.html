@@ -1,1 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Learning Journal | Emma DA SILVA</title>
+
+  <meta
+    name="description"
+    content="Follow Emma DA SILVA’s learning journal as she practices Linux, Shell, C language, GitHub, web development, and command-line challenges."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo" aria-label="Emma DA SILVA Home">
+        <span class="logo-mark">E</span>
+        <span class="logo-text">Emma DA SILVA</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link" data-en="Home" data-fr="Accueil">Home</a>
+        <a href="about.html" class="nav-link" data-en="About" data-fr="À propos">About</a>
+        <a href="projects.html" class="nav-link" data-en="Projects" data-fr="Projets">Projects</a>
+        <a href="skills.html" class="nav-link" data-en="Skills" data-fr="Compétences">Skills</a>
+        <a href="journal.html" class="nav-link active" data-en="Learning Journal" data-fr="Journal d’apprentissage">Learning Journal</a>
+        <a href="contact.html" class="nav-link" data-en="Contact" data-fr="Contact">Contact</a>
+
+        <button class="language-toggle" id="languageToggle" type="button">
+          FR
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container page-hero-content">
+        <p class="eyebrow" data-en="Learning in Public" data-fr="Apprendre publiquement">
+          Learning in Public
+        </p>
+
+        <h1 data-en="Learning Journal" data-fr="Journal d’apprentissage">
+          Learning Journal
+        </h1>
+
+        <p
+          data-en="A space where I document what I am practicing, building, debugging, and understanding as I grow in tech."
+          data-fr="Un espace où je documente ce que je pratique, construis, débogue et comprends pendant ma progression en technologie."
+        >
+          A space where I document what I am practicing, building, debugging, and understanding
+          as I grow in tech.
+        </p>
+      </div>
+    </section>
+
+    <!-- Current Learning Focus -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow" data-en="Current Focus" data-fr="Focus actuel">
+            Current Focus
+          </p>
+
+          <h2 data-en="What I Am Practicing Now" data-fr="Ce que je pratique actuellement">
+            What I Am Practicing Now
+          </h2>
+
+          <p
+            data-en="This journal is not about pretending to know everything. It is about tracking real practice, mistakes, progress, and lessons."
+            data-fr="Ce journal ne sert pas à prétendre tout savoir. Il sert à suivre la pratique réelle, les erreurs, les progrès et les leçons."
+          >
+            This journal is not about pretending to know everything. It is about tracking
+            real practice, mistakes, progress, and lessons.
+          </p>
+        </div>
+
+        <div class="list-grid">
+          <article class="skill-group">
+            <h3 data-en="Command Line" data-fr="Ligne de commande">
+              Command Line
+            </h3>
+
+            <ul class="clean-list">
+              <li data-en="Linux and terminal practice" data-fr="Pratique de Linux et du terminal">Linux and terminal practice</li>
+              <li data-en="Shell commands" data-fr="Commandes Shell">Shell commands</li>
+              <li data-en="File navigation" data-fr="Navigation dans les fichiers">File navigation</li>
+              <li data-en="Permissions and hidden files" data-fr="Permissions et fichiers cachés">Permissions and hidden files</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3 data-en="Development Workflow" data-fr="Workflow de développement">
+              Development Workflow
+            </h3>
+
+            <ul class="clean-list">
+              <li data-en="Git and GitHub workflow" data-fr="Workflow Git et GitHub">Git and GitHub workflow</li>
+              <li data-en="GitHub Pages deployment" data-fr="Déploiement avec GitHub Pages">GitHub Pages deployment</li>
+              <li data-en="Project documentation" data-fr="Documentation de projet">Project documentation</li>
+              <li data-en="Organizing files clearly" data-fr="Organisation claire des fichiers">Organizing files clearly</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3 data-en="Code Foundations" data-fr="Bases du code">
+              Code Foundations
+            </h3>
+
+            <ul class="clean-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>C Language</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Platforms -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow" data-en="Practice Platforms" data-fr="Plateformes de pratique">
+            Practice Platforms
+          </p>
+
+          <h2 data-en="Code-Based Learning Challenges" data-fr="Défis d’apprentissage basés sur le code">
+            Code-Based Learning Challenges
+          </h2>
+
+          <p
+            data-en="These platforms help me move beyond passive tutorials and practice by solving real terminal-based challenges."
+            data-fr="Ces plateformes m’aident à dépasser les tutoriels passifs et à pratiquer en résolvant de vrais défis dans le terminal."
+          >
+            These platforms help me move beyond passive tutorials and practice by solving
+            real terminal-based challenges.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-type" data-en="Linux Challenge" data-fr="Défi Linux">
+                Linux Challenge
+              </span>
+
+              <span class="status-badge status-progress" data-en="Practicing" data-fr="En pratique">
+                Practicing
+              </span>
+            </div>
+
+            <h2 data-en="OverTheWire: Bandit" data-fr="OverTheWire: Bandit">
+              OverTheWire: Bandit
+            </h2>
+
+            <p
+              data-en="OverTheWire: Bandit is helping me practice Linux commands, SSH, file permissions, hidden files, command-line navigation, and problem-solving through terminal-based levels."
+              data-fr="OverTheWire: Bandit m’aide à pratiquer les commandes Linux, SSH, les permissions de fichiers, les fichiers cachés, la navigation en ligne de commande et la résolution de problèmes à travers des niveaux dans le terminal."
+            >
+              OverTheWire: Bandit is helping me practice Linux commands, SSH, file permissions,
+              hidden files, command-line navigation, and problem-solving through terminal-based levels.
+            </p>
+
+            <div class="tag-list">
+              <span>Linux</span>
+              <span>SSH</span>
+              <span>Terminal</span>
+              <span>Permissions</span>
+            </div>
+
+            <a
+              href="https://emma-dasilva-dev.github.io/bandit-redline-journal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              data-en="View Bandit Journal"
+              data-fr="Voir le journal Bandit"
+            >
+              View Bandit Journal
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-type" data-en="Terminal Learning Game" data-fr="Jeu d’apprentissage terminal">
+                Terminal Learning Game
+              </span>
+
+              <span class="status-badge" data-en="Exploring" data-fr="En exploration">
+                Exploring
+              </span>
+            </div>
+
+            <h2 data-en="GameShell" data-fr="GameShell">
+              GameShell
+            </h2>
+
+            <p
+              data-en="GameShell is a terminal-based learning game available on GitHub that helps me practice command-line thinking in a more interactive way."
+              data-fr="GameShell est un jeu d’apprentissage dans le terminal disponible sur GitHub, qui m’aide à pratiquer la réflexion en ligne de commande de manière plus interactive."
+            >
+              GameShell is a terminal-based learning game available on GitHub that helps me
+              practice command-line thinking in a more interactive way.
+            </p>
+
+            <div class="tag-list">
+              <span>Shell</span>
+              <span>Terminal</span>
+              <span>Command Line</span>
+              <span>GitHub</span>
+            </div>
+
+            <a
+              href="projects.html"
+              class="project-link"
+              data-en="See Project Notes"
+              data-fr="Voir les notes du projet"
+            >
+              See Project Notes
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Log Table -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow" data-en="Progress Tracker" data-fr="Suivi de progression">
+            Progress Tracker
+          </p>
+
+          <h2 data-en="Learning Log" data-fr="Journal de progression">
+            Learning Log
+          </h2>
+
+          <p
+            data-en="This table connects what I practice with the projects or proof that show my progress."
+            data-fr="Ce tableau relie ce que je pratique aux projets ou preuves qui montrent ma progression."
+          >
+            This table connects what I practice with the projects or proof that show my progress.
+          </p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-en="Topic" data-fr="Sujet">Topic</th>
+                <th data-en="What I Practiced" data-fr="Ce que j’ai pratiqué">What I Practiced</th>
+                <th data-en="Proof / Project" data-fr="Preuve / Projet">Proof / Project</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td data-en="Linux Terminal" data-fr="Terminal Linux">Linux Terminal</td>
+                <td data-en="SSH, navigation, hidden files, permissions" data-fr="SSH, navigation, fichiers cachés, permissions">SSH, navigation, hidden files, permissions</td>
+                <td data-en="Bandit Redline Journal" data-fr="Bandit Redline Journal">Bandit Redline Journal</td>
+              </tr>
+
+              <tr>
+                <td data-en="GitHub Pages" data-fr="GitHub Pages">GitHub Pages</td>
+                <td data-en="Deployment and repository structure" data-fr="Déploiement et structure de dépôt">Deployment and repository structure</td>
+                <td data-en="Portfolio + Bandit Journal" data-fr="Portfolio + Journal Bandit">Portfolio + Bandit Journal</td>
+              </tr>
+
+              <tr>
+                <td data-en="Web Development" data-fr="Développement web">Web Development</td>
+                <td data-en="HTML, CSS, JavaScript" data-fr="HTML, CSS, JavaScript">HTML, CSS, JavaScript</td>
+                <td data-en="ByteRush + Portfolio" data-fr="ByteRush + Portfolio">ByteRush + Portfolio</td>
+              </tr>
+
+              <tr>
+                <td data-en="C Language" data-fr="Langage C">C Language</td>
+                <td data-en="Programming foundations and logic" data-fr="Bases de programmation et logique">Programming foundations and logic</td>
+                <td data-en="Current learning" data-fr="Apprentissage actuel">Current learning</td>
+              </tr>
+
+              <tr>
+                <td data-en="Shell" data-fr="Shell">Shell</td>
+                <td data-en="Command-line practice and scripting basics" data-fr="Pratique de la ligne de commande et bases du scripting">Command-line practice and scripting basics</td>
+                <td data-en="OverTheWire: Bandit + GameShell" data-fr="OverTheWire: Bandit + GameShell">OverTheWire: Bandit + GameShell</td>
+              </tr>
+
+              <tr>
+                <td data-en="Documentation" data-fr="Documentation">Documentation</td>
+                <td data-en="Writing what I learn clearly" data-fr="Écrire clairement ce que j’apprends">Writing what I learn clearly</td>
+                <td data-en="Learning Journal" data-fr="Journal d’apprentissage">Learning Journal</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lessons -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow" data-en="Reflection" data-fr="Réflexion">
+            Reflection
+          </p>
+
+          <h2 data-en="Lessons I Am Learning" data-fr="Leçons que j’apprends">
+            Lessons I Am Learning
+          </h2>
+        </div>
+
+        <div class="cards-grid three-columns">
+          <article class="info-card">
+            <div class="card-icon">01</div>
+            <h2 data-en="Start before I feel ready." data-fr="Commencer avant de me sentir prête.">
+              Start before I feel ready.
+            </h2>
+            <p
+              data-en="Waiting for confidence can become a delay strategy. Action builds confidence faster."
+              data-fr="Attendre la confiance peut devenir une stratégie de retardement. L’action construit la confiance plus vite."
+            >
+              Waiting for confidence can become a delay strategy. Action builds confidence faster.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">02</div>
+            <h2 data-en="Debugging is part of learning." data-fr="Le débogage fait partie de l’apprentissage.">
+              Debugging is part of learning.
+            </h2>
+            <p
+              data-en="Errors are not proof that I cannot code. They are part of how I understand what is happening."
+              data-fr="Les erreurs ne prouvent pas que je ne peux pas coder. Elles font partie du processus qui m’aide à comprendre ce qui se passe."
+            >
+              Errors are not proof that I cannot code. They are part of how I understand what is happening.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">03</div>
+            <h2 data-en="Curiosity beats self-doubt." data-fr="La curiosité dépasse le doute.">
+              Curiosity beats self-doubt.
+            </h2>
+            <p
+              data-en="The more I practice, the more I realize that growth begins when I stop waiting for certainty."
+              data-fr="Plus je pratique, plus je comprends que la croissance commence quand j’arrête d’attendre la certitude."
+            >
+              The more I practice, the more I realize that growth begins when I stop waiting for certainty.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="final-cta section-padding">
+      <div class="container">
+        <div class="cta-box">
+          <h2
+            data-en="Documentation turns practice into visible progress."
+            data-fr="La documentation transforme la pratique en progrès visible."
+          >
+            Documentation turns practice into visible progress.
+          </h2>
+
+          <a
+            href="contact.html"
+            class="btn btn-primary"
+            data-en="Contact Me"
+            data-fr="Me contacter"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="footer-logo">Emma DA SILVA</a>
+        <p
+          data-en="Aspiring Software Developer"
+          data-fr="Développeuse logiciel en devenir"
+        >
+          Aspiring Software Developer
+        </p>
+        <p class="footer-small">Learning. Building. Debugging. Improving.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/emma-dasilva-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/emmadasilvadev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:emma.dasilva.dev@gmail.com">Email</a>
+        <a href="https://www.instagram.com/reine.dsv/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p
+        data-en="Built and published with GitHub Pages."
+        data-fr="Construit et publié avec GitHub Pages."
+      >
+        Built and published with GitHub Pages.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
