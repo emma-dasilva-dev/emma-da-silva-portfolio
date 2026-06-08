@@ -1,1 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Projects | Emma DA SILVA</title>
+
+  <meta
+    name="description"
+    content="Explore Emma DA SILVA’s developer projects, including Bandit Redline Journal, ByteRush, and her personal bilingual developer portfolio."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo" aria-label="Emma DA SILVA Home">
+        <span class="logo-mark">E</span>
+        <span class="logo-text">Emma DA SILVA</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link" data-en="Home" data-fr="Accueil">Home</a>
+        <a href="about.html" class="nav-link" data-en="About" data-fr="À propos">About</a>
+        <a href="projects.html" class="nav-link active" data-en="Projects" data-fr="Projets">Projects</a>
+        <a href="skills.html" class="nav-link" data-en="Skills" data-fr="Compétences">Skills</a>
+        <a href="journal.html" class="nav-link" data-en="Learning Journal" data-fr="Journal d’apprentissage">Learning Journal</a>
+        <a href="contact.html" class="nav-link" data-en="Contact" data-fr="Contact">Contact</a>
+
+        <button class="language-toggle" id="languageToggle" type="button">
+          FR
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container page-hero-content">
+        <p class="eyebrow" data-en="My Work" data-fr="Mon travail">
+          My Work
+        </p>
+
+        <h1 data-en="Projects" data-fr="Projets">
+          Projects
+        </h1>
+
+        <p
+          data-en="A collection of the projects I am building, testing, documenting, and improving as I grow as a developer."
+          data-fr="Une collection de projets que je construis, teste, documente et améliore pendant que je progresse comme développeuse."
+        >
+          A collection of the projects I am building, testing, documenting, and improving
+          as I grow as a developer.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="content-section">
+      <div class="container">
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span
+                class="project-type"
+                data-en="Cybersecurity / Linux Learning Journal"
+                data-fr="Cybersécurité / Journal d’apprentissage Linux"
+              >
+                Cybersecurity / Linux Learning Journal
+              </span>
+
+              <span class="status-badge status-progress" data-en="In progress" data-fr="En cours">
+                In progress
+              </span>
+            </div>
+
+            <h2 data-en="Bandit Redline Journal" data-fr="Bandit Redline Journal">
+              Bandit Redline Journal
+            </h2>
+
+            <p
+              data-en="A personal learning journal documenting my progress through OverTheWire: Bandit. The project helps me track commands, concepts, mistakes, and solutions while strengthening my understanding of Linux and terminal-based problem-solving."
+              data-fr="Un journal d’apprentissage personnel qui documente ma progression sur OverTheWire: Bandit. Ce projet m’aide à suivre les commandes, les concepts, les erreurs et les solutions tout en renforçant ma compréhension de Linux et de la résolution de problèmes dans le terminal."
+            >
+              A personal learning journal documenting my progress through OverTheWire: Bandit.
+              The project helps me track commands, concepts, mistakes, and solutions while
+              strengthening my understanding of Linux and terminal-based problem-solving.
+            </p>
+
+            <div class="tag-list">
+              <span>Linux Terminal</span>
+              <span>SSH</span>
+              <span>File Navigation</span>
+              <span>Permissions</span>
+              <span>Documentation</span>
+              <span>GitHub Pages</span>
+            </div>
+
+            <a
+              href="https://emma-dasilva-dev.github.io/bandit-redline-journal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              data-en="View Project"
+              data-fr="Voir le projet"
+            >
+              View Project
+            </a>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span
+                class="project-type"
+                data-en="Educational Coding Game"
+                data-fr="Jeu éducatif de code"
+              >
+                Educational Coding Game
+              </span>
+
+              <span class="status-badge status-live" data-en="Live demo" data-fr="Démo en ligne">
+                Live demo
+              </span>
+            </div>
+
+            <h2 data-en="ByteRush" data-fr="ByteRush">
+              ByteRush
+            </h2>
+
+            <p
+              data-en="An educational coding game designed to make programming concepts more interactive and engaging for beginners. ByteRush was one of my first serious tech projects and was presented during my final project defense."
+              data-fr="Un jeu éducatif de code conçu pour rendre les concepts de programmation plus interactifs et engageants pour les débutants. ByteRush a été l’un de mes premiers projets tech sérieux et a été présenté pendant ma soutenance finale."
+            >
+              An educational coding game designed to make programming concepts more interactive
+              and engaging for beginners. ByteRush was one of my first serious tech projects
+              and was presented during my final project defense.
+            </p>
+
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Game Logic</span>
+              <span>UI Design</span>
+              <span>Project Defense</span>
+            </div>
+
+            <a
+              href="https://www.azatoys.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              data-en="View Live Demo"
+              data-fr="Voir la démo"
+            >
+              View Live Demo
+            </a>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span
+                class="project-type"
+                data-en="Portfolio Website"
+                data-fr="Site portfolio"
+              >
+                Portfolio Website
+              </span>
+
+              <span class="status-badge status-progress" data-en="In progress" data-fr="En cours">
+                In progress
+              </span>
+            </div>
+
+            <h2
+              data-en="Personal Developer Portfolio"
+              data-fr="Portfolio développeuse personnel"
+            >
+              Personal Developer Portfolio
+            </h2>
+
+            <p
+              data-en="A bilingual portfolio website built to present my story, projects, skills, and learning journey in a clean and professional format."
+              data-fr="Un portfolio bilingue construit pour présenter mon histoire, mes projets, mes compétences et mon parcours d’apprentissage dans un format propre et professionnel."
+            >
+              A bilingual portfolio website built to present my story, projects, skills,
+              and learning journey in a clean and professional format.
+            </p>
+
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+              <span>EN / FR</span>
+              <span>GitHub Pages</span>
+            </div>
+
+            <a
+              href="https://github.com/emma-dasilva-dev/emma-da-silva-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              data-en="View Repository"
+              data-fr="Voir le dépôt"
+            >
+              View Repository
+            </a>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span
+                class="project-type"
+                data-en="Terminal-Based Learning Journal"
+                data-fr="Journal d’apprentissage dans le terminal"
+              >
+                Terminal-Based Learning Journal
+              </span>
+
+              <span class="status-badge" data-en="Coming soon" data-fr="Bientôt disponible">
+                Coming soon
+              </span>
+            </div>
+
+            <h2 data-en="GameShell Learning Notes" data-fr="Notes d’apprentissage GameShell">
+              GameShell Learning Notes
+            </h2>
+
+            <p
+              data-en="A future learning log documenting what I practice through GameShell, a terminal-based learning game available on GitHub."
+              data-fr="Un futur journal d’apprentissage pour documenter ce que je pratique avec GameShell, un jeu d’apprentissage dans le terminal disponible sur GitHub."
+            >
+              A future learning log documenting what I practice through GameShell, a terminal-based
+              learning game available on GitHub.
+            </p>
+
+            <div class="tag-list">
+              <span>Shell</span>
+              <span>Terminal</span>
+              <span>Command Line</span>
+              <span>Documentation</span>
+              <span>GitHub</span>
+            </div>
+
+            <a
+              href="journal.html"
+              class="project-link"
+              data-en="Open Learning Journal"
+              data-fr="Ouvrir le journal d’apprentissage"
+            >
+              Open Learning Journal
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="final-cta section-padding">
+      <div class="container">
+        <div class="cta-box">
+          <h2
+            data-en="Each project is proof that learning becomes stronger when it turns into practice."
+            data-fr="Chaque projet prouve que l’apprentissage devient plus solide lorsqu’il se transforme en pratique."
+          >
+            Each project is proof that learning becomes stronger when it turns into practice.
+          </h2>
+
+          <a
+            href="skills.html"
+            class="btn btn-primary"
+            data-en="View My Skills"
+            data-fr="Voir mes compétences"
+          >
+            View My Skills
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="footer-logo">Emma DA SILVA</a>
+        <p
+          data-en="Aspiring Software Developer"
+          data-fr="Développeuse logiciel en devenir"
+        >
+          Aspiring Software Developer
+        </p>
+        <p class="footer-small">Learning. Building. Debugging. Improving.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/emma-dasilva-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/emmadasilvadev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:emma.dasilva.dev@gmail.com">Email</a>
+        <a href="https://www.instagram.com/reine.dsv/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p
+        data-en="Built and published with GitHub Pages."
+        data-fr="Construit et publié avec GitHub Pages."
+      >
+        Built and published with GitHub Pages.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
